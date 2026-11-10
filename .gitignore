@@ -1,0 +1,34 @@
+
+# Entorno virtual
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Configuraciones locales y secretos
+.env
+.env.*
+!.env.example
+profiles.yml
+
+# Archivos temporales
+.DS_Store
+Thumbs.db
+dbt_internal_packages/
+
+# Base de datos auxiliar de dbt
+dev.duckdb
+deacero.duckdb
+
+# Archivos temporales de DuckDB
+*.duckdb.wal
+
+# Bases de datos locales (no subir al repositorio)
+*.duckdb
+*.duckdb.wal

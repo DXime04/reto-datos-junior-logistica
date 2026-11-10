@@ -1,0 +1,20 @@
+
+version: 2
+
+sources:
+  - name: fle
+    schema: landing_fle
+    tables:
+      - name: fle_viaje
+      - name: fle_viaje_det
+      - name: fle_entrega
+
+  - name: vta
+    schema: landing_vta
+    tables:
+      - name: vta_cliente
+
+  - name: opc
+    schema: landing_opc
+    tables:
+      - name: opc_planta
